@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Übung lev2_3: Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <table>
+                <tr>
+                    <!-- Name -->
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name__email" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <!-- Surname -->
+                    <td><label for="sname">Surname</label></td>
+                    <td><input type="text" name="sname" id="name__email" placeholder="Surname"></td>
+                </tr>
+                <tr>
+                    <!-- Email -->
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="name__email" placeholder="Email"></td>
+                </tr>
+                <!-- Gender -->
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><label for="gender" id="gender">Male<input type="radio" name="gender" id="gender"/>
+                            <label for="gender" id="gender">Female<input type="radio" name="gender" id="gender"/></label>
+                        </label></td>
+                </tr>
+                <!-- picture file -->
+                <tr>
+                    <td><label for="picture">Picture</label></td>
+                    <td><input type="file" name="picture"></td>
+                </tr>
+                <!-- Country -->
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td>
+                        <select name="country">
+                            <option value="germany">Germany</option>
+                            <option value="france">France</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <!-- languages -->
+                <tr>
+                    <td><label for="languages">Preferred languages</label></td>
+                    <td>
+                        <select name="languages" size="3" multiple>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JS</option>
+                            <option value="react">React</option>
+                        </select>
+                        <p>To choose more than one use Command (Mac) key.</p>
+                    </td>
+                </tr>
+                <!-- activity -->
+                <tr>
+                    <td><label for="activity">Field of activity</label></td>
+                    <td> <label><input type="checkbox">IT</label>
+                        <label><input type="checkbox">Design</label>
+                        <label><input type="checkbox">Other</label>
+                    </td>
+                </tr>
+                <!-- send & cancel button -->
+                <tr>
+                    <td>
+                        <button type="button">Send</button>
+                        <button type="button">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1920px;
+    font-size: 10px;
+}
+
+form fieldset {
+    padding: 20px;
+    font-size: 2rem;
+}
+form fieldset input {
+    padding: 2px;
+    margin: 3px;
+}
+
+form fieldset label {
+
+}
+
+form fieldset button {
+    padding: 3px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+
+
+
